@@ -1,0 +1,10 @@
+html {
+    font-family: 'Pacifico', cursive;
+    font-size: 16px;
+    line-height: 150%; 
+}
+.container {
+    width: 800px;
+    color: #3b3b3b;
+    margin: 0 auto;
+}

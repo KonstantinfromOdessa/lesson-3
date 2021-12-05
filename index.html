@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lesson 3</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <main>
+        <section class="container">
+            <h1>Home work #3</h1>
+            <form>
+                <fieldset>
+                    <legend>Укажите ваши данные</legend>
+                    <p>
+                        <label for="name"> Ваше имя:</label>
+                        <input type="text" id="name" placeholder="Введите своё имя">
+                    </p>
+                    <p>
+                        <label for="">Ваша фамилия:</label>
+                        <input type="text" id="lastname" placeholder="Введите свою фамилию">
+                    </p>
+                    <p>
+                        <label for="email">Электронная почта:</label>
+                        <input type="email" id="email" placeholder="Введите свою почту">
+                    </p>
+                </fieldset>
+                <fieldset>
+                    <legend>Данные про ваш курс</legend>
+                    <p>
+                        <label>Выберите ваш курс:</label>
+                        <select name="" id="">
+                            <option value="Выберите из списка" selected disabled>Выберите из списка</option>
+                            <option value="Front-End Basic">Front-End Basic</option>
+                            <option value="Front-End Pro">Front-End Pro</option>
+                        </select>
+                    </p>
+                    <p>
+                        <label for="homework">Выполняете ли вы домашнее задание:</label>
+                        <br>
+                        <input id="homework" type="radio" value="one" name="radioname"> Да, выполняю
+                        <br>
+                        <input id="homework" type="radio" value="one" name="radioname"> Нет, не выполняю
+                    </p>
+                    <p>
+                        <label for="moreinfo"> Дополнительная информация:</label>
+                        <br>
+                        <input id="moreinfo" type="checkbox" value="one"> Буду продолжать обучение
+                        <br>
+                        <input id="moreinfo" type="checkbox" value="one"> Дополнительно занимаюсь английским
+                    </p>
+                </fieldset>
+                <button type="submit">Отправить</button>
+            </form>
+        </section>
+    </main>
+</body>
+
+</html>
